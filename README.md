@@ -33,4 +33,4 @@ asNumeral(4371)
 ```
 ## Other Things
 
-Yes. I know that by using aboslute number of variables instead of proportion of variables will heavily skew the results. That's a design feature.
+Yes. I know that by using aboslute number of vowels instead of proportion of vowels will heavily skew the results. That's a design feature.
