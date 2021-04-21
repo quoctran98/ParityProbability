@@ -14,5 +14,5 @@ probablyOdd <- function (num, model = buildModel()) {
   numeralSplit <- unlist(strsplit(asNumeral(abs(num)), ""))
   vowels <- sum(numeralSplit %in% c("a","e","i","o","u"))
   pVowels <- vowels / length(numeralSplit)
-  return(as.numeric(1/(1+exp(-1*(pVowels+model)))))
+  return(as.numeric(1/(1+exp(-1*(vowels+model)))))
 }
