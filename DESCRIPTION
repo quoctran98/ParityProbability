@@ -1,0 +1,18 @@
+Package: ParityProbability
+Title: Get Probability of A Number's Parity 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Quoc",
+           family = "Tran",
+           role = c("aut", "cre"),
+           email = "quoctran1998@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Thinking of as odd and even numbers as a definite thing is obsolete, so this uses a logistic model to determine how likely a number was to be odd or even based on the number of vowels in its English numeral.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
