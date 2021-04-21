@@ -1,13 +1,13 @@
-# ProbabilityParity
+# ParityProbability
 I noticed the English numerals of numbers tended to have more vowels if they were even ("one" has 2 vowels and "two" has 1 vowel). This package uses a logistic model to predict whether a number is odd or even based on the number of vowels that it has. There may be no better way to determine whether a number is odd or even.
 
 ## Installation
 
-ProbablityParity can be installed directly from Github and loaded in R:
+ParityProbability can be installed directly from Github and loaded in R:
 
 ```
-devtools::install_github("https://github.com/quoctran98/ProbabilityParity.git")
-library(ProbabilityParity)
+devtools::install_github("https://github.com/quoctran98/ParityProbability.git")
+library(ParityProbability)
 ```
 
 ## Usage
