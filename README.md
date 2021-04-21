@@ -31,3 +31,6 @@ The ```asNumeral()``` function is also fun to use:
 asNumeral(4371)
 #> "four thousand three hundred seventy one"
 ```
+## Other Things
+
+Yes. I know that by using aboslute number of variables instead of proportion of variables will heavily skew the results. That's a design feature.
