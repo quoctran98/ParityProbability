@@ -12,11 +12,11 @@ ProbablityParity can be installed directly from Github in R:
 The two functions ```probablyOdd()``` and ```maybeEven()``` return the probability that a number is odd or even, respectively.
 
 ``` 
-probablyOdd(95)
+probablyOdd(num = 95, model = buildModel(num = 1:100))
 #> 0.7190463
 ```
 ```
-maybeEven(17)
+maybeEven(num = 17, model = buildModel(num = 1:100))
 #> 0.2809537
 ```
 
